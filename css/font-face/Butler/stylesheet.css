@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler_Black.eot');
+    src: url('Butler_Black.eot?#iefix') format('embedded-opentype'),    
+         url('Butler_Black.woff2') format('woff2'),
+         url('Butler_Black.woff') format('woff'),
+         url("Butler_Black.otf") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler_Bold.eot');
+    src: url('Butler_Bold.eot?#iefix') format('embedded-opentype'),
+         url('Butler_Bold.woff2') format('woff2'),
+         url('Butler_Bold.woff') format('woff'),
+         url("Butler_Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler_ExtraBold.eot');
+    src: url('Butler_ExtraBold.eot?#iefix') format('embedded-opentype'),
+         url('Butler_ExtraBold.woff2') format('woff2'),
+         url('Butler_ExtraBold.woff') format('woff'),
+         url("Butler_ExtraBold.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler_Light.eot');
+    src: url('Butler_Light.eot?#iefix') format('embedded-opentype'),
+         url('Butler_Light.woff2') format('woff2'),
+         url('Butler_Light.woff') format('woff'),
+         url("Butler_Light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler_Medium.eot');
+    src: url('Butler_Medium.eot?#iefix') format('embedded-opentype'),
+         url('Butler_Medium.woff2') format('woff2'),
+         url('Butler_Medium.woff') format('woff'),
+         url("Butler_Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler_Regular.eot');
+    src: url('Butler_Regular.eot?#iefix') format('embedded-opentype'),
+         url('Butler_Regular.woff2') format('woff2'),
+         url('Butler_Regular.woff') format('woff'),
+         url("Butler_Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler_Ultra_Light.eot');
+    src: url('Butler_Black.eot?#iefix') format('embedded-opentype'),
+         url('Butler_Ultra_Light.woff2') format('woff2'),
+         url('Butler_Ultra_Light.woff') format('woff'),
+         url("Butler_Ultra_Light.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}

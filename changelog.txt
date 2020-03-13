@@ -1,0 +1,16 @@
+Version 1.1.1
+    Fixed:
+        - Improve PHP 7.3 compatibility
+        - Update plugins to the latest versions
+        - Improve Elementor styles
+
+Version 1.1.0
+    Changed:
+        - Update demo data
+    Fixed:
+        - Improve Google Map functionality
+        - Update plugins to their latest versions
+    Removed:
+        - Support page, Video Tutorials page
+
+Version 1.0.0

@@ -1,0 +1,139 @@
+/* Essential Grid styles
+----------------------------------------------------------------- */
+
+.esg-grid i[class*="eg-icon-"] {
+	@include transition-color(.5s);
+}
+
+.esg-entry-cover .eec > div {
+	margin-right: 0 !important;
+}
+
+.esg-entry-cover .eec > div[class*="-element-1-a"] {
+	margin-left: 10px !important;
+}
+
+.esg-starring {
+	vertical-align: top;
+}
+.esg-starring .star-rating, .esg-starring-page .star-rating {
+	width: 6em;
+}
+
+.flat-light .esg-filters .esg-sortbutton-order,
+.flat-light .esg-filters .esg-cartbutton-order {
+	line-height:36px;
+	margin:0;
+}
+.flat-light .esg-filters .esg-sortbutton {
+	padding-right: 0;
+}
+
+.esgbox-overlay {
+	z-index: 228010 !important;
+}
+.esgbox-opened {
+	z-index: 228030 !important;
+}
+
+.esg-entry-media {
+    padding-top: 1px;
+}
+
+html .esg-loadmore-wrapper {
+    //margin-top: 70px;
+    margin-top: 3.684210526315789vw;
+}
+html .minimal-light .esg-navigationbutton:not(.esg-pagination-button) {
+    padding:1.555555555555556em 1.8em 1.777777777777778em;
+    @include border-sharp;
+    
+    &, &:hover {
+        box-shadow: none !important;
+    }
+}
+html .minimal-dark .esg-loadmore-wrapper {
+    margin-top: 0;
+    .esg-navigationbutton {
+        font-size: 0.816rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: transparent !important;
+        border: none !important;
+        margin: 0 !important;
+        padding: 0.7em 3.5em 0.7em 0;
+        position: relative;
+        @include box-shadow(none);
+        &:after {
+            content: '\E965';
+            font-family: 'fontello';
+            font-size: 2.2rem;
+            line-height: 1;
+            vertical-align: baseline;
+            margin: auto;
+            @include abs-pos(-4px, 0, -10px, auto, 1);
+            @include square(1em);
+            @include transform(rotate(90deg));
+        }
+    }
+}
+
+
+.eg-item-skin-blog-wrapper {
+    .esg-entry-media-wrapper{
+        margin-right: 30px;
+    } 
+    .esg-entry-cover .esg-overlay{
+        width: calc(100% - 30px);
+    }
+    .esg-tc.eec {
+        .esg-top {
+            text-align: left;
+            width: 100%;
+            padding: 9px 8px;
+            a {
+                width: auto;
+                display: inline-block;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .esg-cc.eec .esg-center {
+        margin-right: 30px !important;
+    } 
+    .esg-entry-cover {
+        .eg-item-skin-blog-element-3 {
+            letter-spacing: 0.1em;
+            transform-origin: left top;
+            margin-right: -100% !important;
+            @include transform(rotate(90deg));
+            position: absolute !important;
+            z-index: 1 !important;
+            top: 0 !important;
+            right: -4px !important;
+            bottom: auto !important;
+            left: auto !important;
+        }
+    }
+}
+
+div.esg-filter-wrapper .esg-filterbutton > span {
+    font-size: 0.727rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+article.esg-filters.esg-singlefilters {
+    div.esg-filter-wrapper {
+        //text-align: left;
+        //margin: -0.85em 0 3.2em;
+        //max-width: 60%;
+        .esg-filterbutton {
+            margin-bottom: 14px;
+            margin-right: 14px;
+        }
+        .esg-filterbutton + .esg-filterbutton {
+            margin-left: 0;
+        }
+    }
+}

@@ -1,0 +1,123 @@
+/* MailChimp for WP styles
+----------------------------------------------------------------- */
+form.mc4wp-form {
+	position:relative;
+    margin-bottom: 1.4em;
+    padding: 40px 0;
+}
+form.mc4wp-form .mc4wp-form-fields input[type="email"] {
+	width: 100%;
+	vertical-align:top;
+	@include border-box;
+}
+form.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+	@include abs-rt;
+	max-width:8em;
+	vertical-align:top;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+form.mc4wp-form .mc4wp-alert {
+    margin: 0.3em 0 1em;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+
+
+/* Mail Chimp */
+.mc4wp-response,
+.mailchimp_form .mailchimp_inputs{
+    width: 570px;
+    max-width: 100%;
+}
+.mailchimp_form input,
+.mailchimp_form button {
+    height: 4.090909090909091rem;
+    display:inline-block;
+    @include border-sharp;
+    @include border-box;
+}
+body .mailchimp_form input[type="email"] {
+    width: 100%;
+    min-width: 7.4rem;
+    margin-right: 0;
+    line-height: inherit;
+    border: 2px solid;
+    padding: 0.5em 1.5em;
+}
+.mailchimp_form button{
+    padding: 1.555555555555556em 2em 1.777777777777778em;
+    white-space: nowrap;
+    font-size: 0.818rem;
+    font-weight: 700;
+    border: none !important;
+    position: relative;
+    text-align: right;
+}
+.mailchimp_form input[type="email"] + button {
+    margin-left: 5px;
+}
+body .mailchimp_form .mailchimp_inputs input[type="email"] {
+    //padding-right: 55px;
+    width: calc(100% - 200px);
+}
+.mailchimp_form button { 
+    //width: 183px;
+}
+
+
+
+.gdpr-terms-container {
+    margin: 1em 0 !important;
+}
+.wpcf7-acceptance input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"].wpcf7-acceptance {
+    display: inline-block;
+    vertical-align:baseline;
+}
+.mcfwp-agree-input > span:before {
+    content: ' ';
+    font-family: "fontello";
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+    border: 1px solid #eee;
+    width: 0.6em;
+    height: 0.6em;
+    line-height: 0.53em;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+.mc4wp-form-fields label > input[type="checkbox"]:checked + span:before {
+    content: '\e8ab';
+}
+.mc4wp-form-fields label > input[type="checkbox"] {
+    display: none;
+}
+form.mc4wp-form .mcfwp-agree-input > span {
+    display: block;
+    text-align: left;
+    padding-left: 1.4em;
+    margin-top: 10px;
+    position: relative;
+    font-size: 15px;
+}
+form.mc4wp-form .mcfwp-agree-input > span a:hover {
+    color: #322923;
+}
+form.mc4wp-form .mcfwp-agree-input > span a {
+    color: #fff;
+}

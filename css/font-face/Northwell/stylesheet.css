@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Northwell';
+    src: url("Northwell.otf") format("opentype"),
+         url('Northwell.ttf') format('truetype');
+    font-style: normal;
+}
